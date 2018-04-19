@@ -11,5 +11,5 @@ Resources:
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: 'arn:aws:iam::135408527572:role/service-role/redirectMobengaRole'
+      Role: 'arn:aws:iam::917894928836:role/service-role/jj-cloudwatch-lambda-execution-role'
 
