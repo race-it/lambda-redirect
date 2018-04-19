@@ -28,6 +28,10 @@ exports.handler = (event, context, callback) => {
         "new" : '/path/to/new/resource'
       },
       {
+        "old" : '/pathadded/to/old/resource',
+        "new" : '/pathremoved/to/new/resource'
+      },
+      {
         "old" : '/path/to/other/old/resource',
         "new" : '/path/to/other/new/place'
       }
