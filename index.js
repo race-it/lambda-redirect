@@ -1,7 +1,7 @@
 'use strict';
 exports.handler = (event, context, callback) => {
   /*
-   * Generate HTTP redirect response with 301 status code and Location header.
+   * Generate HTTP redirect response with 302 status code and Location header.
    */
    
    const request = event.Records[0].cf.request;
@@ -11,7 +11,7 @@ exports.handler = (event, context, callback) => {
    const baseURI = "http://www.baseurl.com"
 
    const response = {
-      status: '301',
+      status: '302',
       statusDescription: 'Found',
       headers: {
           location: [{
