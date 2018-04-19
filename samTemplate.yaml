@@ -7,9 +7,9 @@ Resources:
     Properties:
       Handler: index.handler
       Runtime: nodejs6.10
-      CodeUri: s3://bucket/key
+      CodeUri: ./
       Description: ''
       MemorySize: 128
       Timeout: 3
-      Role: 'arn:aws:iam::917894928836:role/service-role/jj-cloudwatch-lambda-execution-role'
+      Role: 'arn:aws:iam::917894928836:role/jj-cloudwatch-lambda-execution-role'
 
